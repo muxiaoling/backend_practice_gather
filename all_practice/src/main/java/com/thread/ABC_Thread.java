@@ -33,8 +33,8 @@ public class ABC_Thread {
 
     }
     public static void main(String[] args) {
-        new MyThread("A", 0);
-        new MyThread("B", 1);
-        new MyThread("C", 2);
+        new MyThread("A", 0).start();
+        new MyThread("B", 1).start();
+        new MyThread("C", 2).start();
     }
 }
